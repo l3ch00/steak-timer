@@ -7,7 +7,7 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['vite.svg'],
+      includeAssets: ['steak-timer-logo.svg'],
       manifest: {
         name: 'Steak Timer',
         short_name: 'SteakTimer',
@@ -18,7 +18,7 @@ export default defineConfig({
         orientation: 'portrait',
         icons: [
           {
-            src: 'vite.svg',
+            src: 'steak-timer-logo.svg',
             sizes: 'any',
             type: 'image/svg+xml',
             purpose: 'any maskable'
