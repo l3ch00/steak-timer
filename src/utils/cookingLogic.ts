@@ -25,12 +25,12 @@ export interface SteakConfig {
 const BASE_THICKNESS_MM = 25; // 1 inch approx
 
 const BASE_TIMES_SECONDS: Record<Doneness, number> = {
-  'Blue': 120,
-  'Rare': 180,
-  'Medium Rare': 240,
-  'Medium': 300,
-  'Medium Well': 360,
-  'Well Done': 480,
+  "Blue": 120,
+  "Rare": 210,
+  "Medium Rare": 330,
+  "Medium": 450,
+  "Medium Well": 570,
+  "Well Done": 690
 };
 
 export const calculateSteps = (thicknessMm: number, doneness: Doneness): CookingStep[] => {
